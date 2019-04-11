@@ -48,7 +48,7 @@ def transferOngToContract(account, ongAmount):
     selfContractAddress = GetExecutingScriptHash()
     Notify(["111_transferOngToContract", selfContractAddress])
     param = state(account, selfContractAddress, ongAmount)
-    ongContractAddress = Base58ToAddress("AFmseVrdL9f9oyCzZefL9tG6UbvhfRZMHJ")
+    ongContractAddress = ToScriptHash("AFmseVrdL9f9oyCzZefL9tG6UbvhfRZMHJ")
     res = Invoke(0, ongContractAddress, 'transfer', [param])
     if res and res == b'\x01':
         Notify('transfer succeed')
@@ -69,7 +69,7 @@ def balanceOf1(acct):
 
     # ONT native contract address
     # contractAddress = bytearray(b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x02')
-    contractAddress = Base58ToAddress("AFmseVrdL9f9oyCzZefL9tG6UbvhfRZMHJ")
+    contractAddress = ToScriptHash("AFmseVrdL9f9oyCzZefL9tG6UbvhfRZMHJ")
     param = state(acct)
     res = Invoke(0, contractAddress, 'balanceOf', acct)
     return res
@@ -86,7 +86,7 @@ def balanceOf2():
 
     # ONT native contract address
     # contractAddress = bytearray(b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x02')
-    ongContractAddress = Base58ToAddress("AFmseVrdL9f9oyCzZefL9tG6UbvhfRZMHJ")
+    ongContractAddress = ToScriptHash("AFmseVrdL9f9oyCzZefL9tG6UbvhfRZMHJ")
     param = state(GetExecutingScriptHash())
     res = Invoke(0, ongContractAddress, 'balanceOf', param)
 
