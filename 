@@ -1,0 +1,298 @@
+[33mcommit 1f0b37b1969e73ba091d0e564623d31c3c4caa9c[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: tonyclarking <tonyclarking@gmail.com>
+Date:   Tue Mar 26 11:36:21 2019 +0800
+
+    add compiler 2.0 smart contracts template
+
+[33mcommit 67cef92e2415e3cb5de14eabffbbfa91f993ed55[m
+Author: tonyclarking <tonyclarking@gmail.com>
+Date:   Mon Jan 28 16:14:45 2019 +0800
+
+    modify transferFrom Within OEP8Sample.py
+
+[33mcommit 12bbf2335f547c5c7ec1d06ec95ffd8cb1354c6b[m
+Author: tonyclarking <tonyclarking@gmail.com>
+Date:   Fri Jan 25 17:28:26 2019 +0800
+
+    update OPE5 and modify several places
+
+[33mcommit af89600a3daa52904891eb76f713c8740fd49dfa[m[33m ([m[1;31mupstream/master[m[33m)[m
+Author: chris <tcpdumpp@163.com>
+Date:   Wed Jan 23 16:01:39 2019 +0800
+
+    Add OEP-35 TokenProxy smart contract template (#16)
+    
+    * Create TokenProxy.py
+    
+    * Create README.md
+    
+    * Update README.md
+    
+    * Update TokenProxy.py
+
+[33mcommit 4d5de1c2be552f3a33f45d346bf44920cf362b7a[m
+Author: tony <43460034+tonyclarking@users.noreply.github.com>
+Date:   Wed Jan 9 14:09:11 2019 +0800
+
+    add OEP8Sample.py (#15)
+    
+    * update README.md
+    
+    * update
+    
+    * update Readme
+    
+    * fix OEP4Sample.py
+    
+    * update token name
+    
+    * update README.md
+    
+    * update README.md
+    
+    * fix OEP4Sample.py transferFrom bug
+    
+    * update templates
+    
+    * add README.me disclaimer
+    
+    * add README.me disclaimer
+    
+    * add README.me disclaimer
+    
+    * update
+    
+    * update
+    
+    * update
+    
+    * update README.md
+    
+    * add OEP8Sample.py
+    
+    * update readme.md
+    
+    * update safemath usage in OEP8Sample.py
+    
+    * add unbound and withdraw ONG template
+
+[33mcommit e6467113b13b63996df51ed14095b9bff5d31d79[m
+Author: tony <43460034+tonyclarking@users.noreply.github.com>
+Date:   Tue Nov 27 11:35:32 2018 +0800
+
+    update OEP4, OEP5 and other previous templates, add disclaimer (#14)
+    
+    * update README.md
+    
+    * update
+    
+    * update Readme
+    
+    * fix OEP4Sample.py
+    
+    * update token name
+    
+    * update README.md
+    
+    * update README.md
+    
+    * fix OEP4Sample.py transferFrom bug
+    
+    * update templates
+    
+    * add README.me disclaimer
+    
+    * add README.me disclaimer
+    
+    * add README.me disclaimer
+    
+    * update
+    
+    * update
+    
+    * update
+    
+    * update README.md
+
+[33mcommit dec5774837a5864a73f1f5591cfb25e643275508[m
+Author: tony <43460034+tonyclarking@users.noreply.github.com>
+Date:   Mon Nov 26 14:34:54 2018 +0800
+
+    delete AvoidContractCallAttack and move it to contract-security (#12)
+    
+    * add avoid
+    
+    * update README.md
+    
+    * update
+    
+    * add dynamicCallContract
+    
+    * add ListandMapSample
+    
+    * update Readme
+    
+    * fix OEP4Sample.py
+    
+    * delete MySimpleToken
+    
+    * update token name
+    
+    * update README.md
+    
+    * update README.md
+    
+    * update README.md
+
+[33mcommit cc5d0d4e1936926a97cd5869ba7a4821f6e2b233[m
+Author: tony <43460034+tonyclarking@users.noreply.github.com>
+Date:   Wed Nov 14 16:24:42 2018 +0800
+
+    add avoid (#11)
+
+[33mcommit 05e2c957628f8890b6b5f630f5b6ab3e3683f58c[m
+Author: tony <43460034+tonyclarking@users.noreply.github.com>
+Date:   Wed Nov 14 10:51:26 2018 +0800
+
+    add ExecutingEntryCallingScriptHash comparison (#10)
+    
+    * update and commit AddressToBase58
+    
+    * update OEP4Sample
+    
+    * update OEP4Sample
+    
+    * fix OEP4Sample.py bug
+    
+    * fix OEP4Sample.py bug
+    
+    * update OEP5Sample.py
+    
+    * add executing entry calling scripthash comparison
+    
+    * add executing entry calling scripthash comparison and readme
+
+[33mcommit 6a41e88da17961b90e8aca016d09be1422dad44a[m
+Author: tony <43460034+tonyclarking@users.noreply.github.com>
+Date:   Mon Oct 29 11:45:17 2018 +0800
+
+    fix OEP-4 transferFrom bug and make sure owner address is legal, delete AddressToBase58 (#9)
+    
+    * update and commit AddressToBase58
+    
+    * update OEP4Sample
+    
+    * update OEP4Sample
+    
+    * fix OEP4Sample.py bug
+    
+    * fix OEP4Sample.py bug
+
+[33mcommit f864b982bc66b8224e5907c2fc83dd0781fb7f83[m
+Author: tony <43460034+tonyclarking@users.noreply.github.com>
+Date:   Wed Oct 24 18:50:04 2018 +0800
+
+    update and commit AddressToBase58 (#7)
+
+[33mcommit c3554af15c9d145df8b7540902cbaca7b8b4ec74[m
+Author: tony <43460034+tonyclarking@users.noreply.github.com>
+Date:   Wed Oct 24 15:46:48 2018 +0800
+
+    modify OEP4 and OEP5 (#3)
+    
+    * add OEP4Sample and EventTest
+    
+    * udpate
+    
+    * update
+    
+    * update typo error
+    
+    * update OEP4Sample.py
+    
+    * update NativeAssetInvoke params name
+    
+    * udpate comma
+    
+    * update OEP4 transferFrom bug
+    
+    * add improved version of OEP4
+    
+    * update OEP-4
+    
+    * update OEP-4
+
+[33mcommit ddefae99d4d40030f4b94e7ce03f24ea3ae7e7e9[m
+Merge: c906200 9adb304
+Author: Avocas <40789963+Avocas@users.noreply.github.com>
+Date:   Wed Sep 26 15:09:45 2018 +0800
+
+    Merge pull request #1 from tonyclarking/master
+    
+    init
+
+[33mcommit 9adb304d63447386db07bef6fdd5558eb89c84ce[m
+Author: tonyclarking <tonyclarking@gmail.com>
+Date:   Wed Sep 26 12:13:19 2018 +0800
+
+    update
+
+[33mcommit 33a1dccccf8c94ad9fc36b21ae4fe020925a9788[m
+Author: tonyclarking <tonyclarking@gmail.com>
+Date:   Wed Sep 26 11:55:56 2018 +0800
+
+    update SafeMath.Sqrt
+
+[33mcommit 6dd6d4830eb1bdff68b9d8f5aed2b8424dfb742f[m
+Author: tonyclarking <tonyclarking@gmail.com>
+Date:   Wed Sep 26 11:54:01 2018 +0800
+
+    update SafeMath.Sqrt
+
+[33mcommit 0373f4ed3bf74a7cca59efcd2d1c8e644d1c4c72[m
+Author: tonyclarking <tonyclarking@gmail.com>
+Date:   Wed Sep 26 10:54:34 2018 +0800
+
+    update libs
+
+[33mcommit b4f74c2c77d5b986c6a5ca5c98d6cf3c3d911401[m
+Author: tonyclarking <tonyclarking@gmail.com>
+Date:   Wed Sep 26 10:42:57 2018 +0800
+
+    update
+
+[33mcommit 37ec43cb0b63e1bfb240de9008c1be3f15665dcd[m
+Author: tonyclarking <tonyclarking@gmail.com>
+Date:   Wed Sep 26 10:41:16 2018 +0800
+
+    update
+
+[33mcommit 615390e68bea4513047ed7c0ae88789bd6f42ad5[m
+Author: tonyclarking <tonyclarking@gmail.com>
+Date:   Wed Sep 26 10:36:47 2018 +0800
+
+    update
+
+[33mcommit bdac41d9ecfd5ac1daad0e924a521999fcb23119[m
+Author: tonyclarking <tonyclarking@gmail.com>
+Date:   Wed Sep 26 10:22:06 2018 +0800
+
+    delete test residual
+
+[33mcommit bb3863eeb31728c9f99fa41717972adb7ce7f2a1[m
+Author: tonyclarking <tonyclarking@gmail.com>
+Date:   Tue Sep 25 19:08:29 2018 +0800
+
+    update
+
+[33mcommit d4c999ff812b9b5e7a460ea715254ab940dd2155[m
+Author: tonyclarking <tonyclarking@gmail.com>
+Date:   Tue Sep 25 17:40:01 2018 +0800
+
+    update
+
+[33mcommit c9062009012063da18ce3cf56b78cdb63d189e94[m
+Author: Avocas <40789963+Avocas@users.noreply.github.com>
+Date:   Tue Sep 25 10:37:52 2018 +0800
+
+    Initial commit
